@@ -1,6 +1,5 @@
 <?php
 	
-	
 	namespace Jp\Prueba;
 	use \mysqli;
 

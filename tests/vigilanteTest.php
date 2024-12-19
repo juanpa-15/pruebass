@@ -1,15 +1,13 @@
 <?php
 
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
+namespace Jp\Prueba\Test;
+
+use Jp\Prueba\VigilanteController;
+
 use PHPUnit\Framework\TestCase;
 use PHPUnit\Framework\MockObject\MockObject;
 
-require_once __DIR__ . '/../src/vigilantesController.php';
-
-
-class vigilanteTest extends TestCase 
-{
+class vigilanteTest extends TestCase {
     private $dbMock;
 
     protected function setUp(): void
