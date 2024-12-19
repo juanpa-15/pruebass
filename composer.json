@@ -1,0 +1,18 @@
+{
+    "name": "jp/prueba",
+    "require": {
+        "phpunit/phpunit": "^11.5",
+        "psr/log": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jp\\Prueba\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "juanpa",
+            "email": "osoriogalvis2585@gmail.com"
+        }
+    ]
+}
