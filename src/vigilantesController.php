@@ -1,7 +1,7 @@
 <?php
-    namespace Johan\Pruebas;
+    namespace Jp\Prueba;
     
-    use Johan\Pruebas\mainModel;
+    use Jp\Prueba\mainModel;
 
 
 class vigilanteController extends mainModel {
